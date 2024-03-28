@@ -609,12 +609,16 @@ PrefabInstance:
       value: PP_Birch_Tree_06
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.1299973
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.688342
+      value: 8.76
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2263,13 +2267,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99999803, z: -0, w: 0.0020011477}
-  m_LocalPosition: {x: -54.01, y: 11.92, z: 65.72}
+  m_LocalRotation: {x: 0.0005400611, y: -0.9628932, z: 0.26987535, w: 0.001926895}
+  m_LocalPosition: {x: -55.01, y: 10.38, z: 64.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -179.771, z: 0}
+  m_LocalEulerAnglesHint: {x: 31.314, y: -179.771, z: 0}
 --- !u!1001 &972554925
 PrefabInstance:
   m_ObjectHideFlags: 0
