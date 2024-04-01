@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene 3 plant grows.unity
     guid: e830674dfda014993a738ddc787519b2
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f919aff64e0f84f408e29ac6cdb26691, type: 2}
