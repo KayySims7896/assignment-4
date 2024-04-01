@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/sample scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/scene2.unity
+    path: Assets/Scenes/scene2 drop seed.unity
     guid: f156cd5c916a24b24909c496eaf64cfe
+  - enabled: 1
+    path: Assets/Scenes/scene 3 plant grows.unity
+    guid: e830674dfda014993a738ddc787519b2
   m_configObjects: {}
