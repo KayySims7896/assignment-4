@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class growflower : MonoBehaviour
 {
-    Vector3 scaleChange = new Vector3(-0.01f, -0.01f, -0.01f);
+    Vector3 scaleChange = new Vector3(-0.1f, -0.1f, -0.1f);
 
     private GameObject selectedObject;
 
@@ -20,13 +20,13 @@ public class growflower : MonoBehaviour
     void Update()
     {
         //click and hold down on object to grow
-        if (Input.clickCount > 0 && Input.touches[0].phase == TouchPhase.Stationary)
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Stationary)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
 
             RaycastHit hit;
 
-            if (Physics.Raycast(ray.out hit))
+            if (Physics.Raycast(ray, out hit))
             {
                 if (hit.transform.tag == "sunflower")
                 {
@@ -36,8 +36,9 @@ public class growflower : MonoBehaviour
 
                     if (hit.transform.localScale.y < 1f || hit.transform.localScale.y > 5f)
                     {
-                        scaleChange = selectedObject;
+                        scaleChange = new Vector3(-0.1f, -0.1f, -0.1f);
                     }
+                    
                 }
             }
         }
