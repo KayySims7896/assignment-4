@@ -2919,7 +2919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6457412111537617222, guid: 23d6b9e67969443ce8a24931396db3e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.01646
+      value: 62.41
       objectReference: {fileID: 0}
     - target: {fileID: 6457412111537617222, guid: 23d6b9e67969443ce8a24931396db3e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2962,6 +2962,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3812224354805016112, guid: 23d6b9e67969443ce8a24931396db3e8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1342577899}
+    - targetCorrespondingSourceObject: {fileID: 3812224354805016112, guid: 23d6b9e67969443ce8a24931396db3e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1342577900}
   m_SourcePrefab: {fileID: 100100000, guid: 23d6b9e67969443ce8a24931396db3e8, type: 3}
 --- !u!1 &1342577885 stripped
 GameObject:
@@ -3007,7 +3010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: b0c876c730da0432ba580c13f0db0ea1, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: ed1fcf452387248cbaf1d1532c88073e, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -3038,6 +3041,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!114 &1342577900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342577885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5e09f6df6474819844ff3417870c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1349139636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4370,7 +4385,7 @@ GameObject:
   - component: {fileID: 1707829700}
   m_Layer: 0
   m_Name: Dirt
-  m_TagString: Untagged
+  m_TagString: exittolevel3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4390,7 +4405,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
