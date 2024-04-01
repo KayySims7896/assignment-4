@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
  
  private Rigidbody rb; 
 
- 
  private float movementX;
  private float movementY;
 
@@ -32,13 +32,18 @@ public class PlayerController : MonoBehaviour
         movementX = movementVector.x; 
         movementY = movementVector.y; 
     }
-
- 
  private void FixedUpdate() 
     {
  
         Vector3 movement = new Vector3 (movementX, 0.0f, movementY);
 
         rb.AddForce(movement * speed); 
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "exittolevel3")
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
