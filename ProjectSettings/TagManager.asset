@@ -6,6 +6,7 @@ TagManager:
   tags:
   - level exit to 3
   - exittolevel3
+  - sunflower
   layers:
   - Default
   - TransparentFX
